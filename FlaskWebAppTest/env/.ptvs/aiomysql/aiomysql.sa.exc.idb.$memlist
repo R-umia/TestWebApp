@@ -1,0 +1,5 @@
+ResourceClosedError
+Error
+InvalidRequestError
+NoSuchColumnError
+ArgumentError

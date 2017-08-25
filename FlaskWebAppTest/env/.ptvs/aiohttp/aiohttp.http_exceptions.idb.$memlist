@@ -1,0 +1,12 @@
+InvalidURLError
+HttpProcessingError
+BadHttpMessage
+ContentEncodingError
+TransferEncodingError
+InvalidHeader
+LineTooLong
+ContentLengthError
+HttpBadRequest
+__all__
+BadStatusLine
+PayloadEncodingError

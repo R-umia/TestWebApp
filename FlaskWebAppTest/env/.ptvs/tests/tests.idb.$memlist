@@ -1,0 +1,15 @@
+test_bulk_inserts
+sa
+pep492
+test_pool
+test_nextset
+test_load_local
+test_cursor
+conftest
+_testutils
+test_sscursor
+test_connection
+test_issues
+test_dictcursor
+base
+test_basic
