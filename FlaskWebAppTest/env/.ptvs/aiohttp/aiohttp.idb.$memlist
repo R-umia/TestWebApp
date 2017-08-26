@@ -208,6 +208,6 @@ deprecated_noop
 connector
 ClientProxyConnectionError
 log
-_websocket
-_frozenlist
 _http_parser
+_frozenlist
+_websocket

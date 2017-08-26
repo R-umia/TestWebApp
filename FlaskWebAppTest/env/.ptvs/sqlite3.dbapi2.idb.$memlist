@@ -11,7 +11,7 @@ Timestamp
 SQLITE_PRAGMA
 InterfaceError
 threadsafety
-connect
+DataError
 SQLITE_DROP_INDEX
 DatabaseError
 sqlite_version_info
@@ -29,8 +29,8 @@ version_info
 Binary
 OperationalError
 adapt
-DateFromTicks
 SQLITE_CREATE_VIEW
+SQLITE_DROP_TABLE
 SQLITE_ANALYZE
 SQLITE_CREATE_TRIGGER
 SQLITE_DROP_TEMP_INDEX
@@ -45,13 +45,13 @@ adapters
 SQLITE_DROP_TEMP_TABLE
 SQLITE_DENY
 SQLITE_DETACH
-DataError
+connect
 time
 Warning
 SQLITE_CREATE_TEMP_TRIGGER
 InternalError
-len
 SQLITE_IGNORE
+len
 SQLITE_SELECT
 TimestampFromTicks
 register_adapters_and_converters
@@ -68,7 +68,7 @@ PrepareProtocol
 SQLITE_CREATE_TEMP_TABLE
 SQLITE_INSERT
 Row
-SQLITE_DROP_TABLE
+DateFromTicks
 SQLITE_REINDEX
 ProgrammingError
 Error

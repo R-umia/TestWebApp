@@ -1,4 +1,4 @@
-NSIG
+Signals
 TypeError
 ValueError
 __name__
@@ -11,7 +11,7 @@ CTRL_C_EVENT
 SIGFPE
 SIGBREAK
 sigwait
-Signals
+NSIG
 SIGINT
 set_wakeup_fd
 globals
