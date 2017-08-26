@@ -1,7 +1,0 @@
-capabilities
-warnings
-test_MySQLdb
-pymysql
-gc
-base
-unittest
