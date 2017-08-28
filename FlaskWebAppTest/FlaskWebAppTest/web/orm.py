@@ -39,7 +39,7 @@ async def execute(sql, args, autocommit=True):
             await conn.begin()
         try:
             async with conn.cursor(aiomysql.DictCursor) as cur:
-                await cur.execute(sql.replace('?', '%s'), args)
+                await cur.execute(sql.replace("?", "%s"), args)
                 affected = cur.rowcount
             if not autocommit:
                 await conn.commit()
@@ -52,8 +52,8 @@ async def execute(sql, args, autocommit=True):
 def create_args_string(num):
     L = []
     for n in range(num):
-        L.append('?')
-    return ', '.join(L)
+        L.append("?")
+    return ", ".join(L)
 
 
 
