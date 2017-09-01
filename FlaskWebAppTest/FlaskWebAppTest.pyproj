@@ -31,7 +31,13 @@
     <Compile Include="FlaskWebAppTest\backup\runserver.py" />
     <Compile Include="FlaskWebAppTest\backup\__init__.py" />
     <Compile Include="FlaskWebAppTest\backup\views.py" />
+    <Compile Include="FlaskWebAppTest\web\apis.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FlaskWebAppTest\web\app.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskWebAppTest\web\coroweb.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FlaskWebAppTest\web\orm.py">
